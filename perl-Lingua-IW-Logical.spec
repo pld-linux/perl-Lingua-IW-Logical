@@ -28,7 +28,7 @@ konwersji pomiêdzy logicznym i wizualnym hebrajskim.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
