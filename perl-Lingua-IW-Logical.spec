@@ -2,9 +2,9 @@
 Summary:	Lingua-IW-Logical perl module
 Summary(pl):	Modu³ perla Lingua-IW-Logical
 Name:		perl-Lingua-IW-Logical
-Version:	0.4
-Release:	3
-Copyright:	GPL
+Version:	0.5
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-IW-Logical-%{version}.tar.gz
