@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	IW-Logical
-Summary:	Lingua-IW-Logical perl module
-Summary(pl):	Modu³ perla Lingua-IW-Logical
+Summary:	Lingua::IW::Logical perl module
+Summary(pl):	Modu³ perla Lingua::IW::Logical
 Name:		perl-Lingua-IW-Logical
 Version:	0.5
 Release:	6
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-IW-Logical module is intended to automate task of converting
+Lingua::IW::Logical module is intended to automate task of converting
 logical Hebrew to visual Hebrew.
 
 %description -l pl
-Modu³ Lingua-IW-Logical jest przeznaczony do automatyzacji zadañ
+Modu³ Lingua::IW::Logical jest przeznaczony do automatyzacji zadañ
 konwersji pomiêdzy logicznym i wizualnym hebrajskim.
 
 %prep
