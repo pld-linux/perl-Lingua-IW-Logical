@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Lingua
 %define	pnam	IW-Logical
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua-IW-Logical perl module
 Summary(pl):	Modu³ perla Lingua-IW-Logical
 Name:		perl-Lingua-IW-Logical
 Version:	0.5
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Modu³ Lingua-IW-Logical jest przeznaczony do automatyzacji zadañ
 konwersji pomiêdzy logicznym i wizualnym hebrajskim.
 
 %prep
-%setup -q -n Lingua-IW-Logical-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
