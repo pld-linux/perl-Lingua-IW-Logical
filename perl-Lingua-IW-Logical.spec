@@ -7,7 +7,7 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-IW-Logical-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Lingua/Lingua-IW-Logical-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,12 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Lingua-IW-Logical module is intended to automate task of converting logical
-Hebrew to visual Hebrew. 
+Lingua-IW-Logical module is intended to automate task of converting
+logical Hebrew to visual Hebrew.
 
 %description -l pl
-Modu³ Lingua-IW-Logical jest przeznaczony do automatyzacji zadañ konwersji
-pomiêdzy logicznym i wizualnym hebrajskim.
+Modu³ Lingua-IW-Logical jest przeznaczony do automatyzacji zadañ
+konwersji pomiêdzy logicznym i wizualnym hebrajskim.
 
 %prep
 %setup -q -n Lingua-IW-Logical-%{version}
