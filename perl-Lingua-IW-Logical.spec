@@ -6,7 +6,7 @@ Summary(pl):	Modu³ perla Lingua::IW::Logical
 Name:		perl-Lingua-IW-Logical
 Version:	0.5
 Release:	8
-License:	GPL
+License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bc6f19ad29cd9ba22a936d3d836b83f1
