@@ -27,7 +27,7 @@ konwersji pomiêdzy logicznym i wizualnym hebrajskim.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
