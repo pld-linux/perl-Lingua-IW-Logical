@@ -2,7 +2,7 @@
 %define		pdir	Lingua
 %define		pnam	IW-Logical
 Summary:	Lingua::IW::Logical perl module
-Summary(pl):	Modu³ perla Lingua::IW::Logical
+Summary(pl.UTF-8):   ModuÅ‚ perla Lingua::IW::Logical
 Name:		perl-Lingua-IW-Logical
 Version:	0.5
 Release:	9
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Lingua::IW::Logical module is intended to automate task of converting
 logical Hebrew to visual Hebrew.
 
-%description -l pl
-Modu³ Lingua::IW::Logical jest przeznaczony do automatyzacji zadañ
-konwersji pomiêdzy logicznym i wizualnym hebrajskim.
+%description -l pl.UTF-8
+ModuÅ‚ Lingua::IW::Logical jest przeznaczony do automatyzacji zadaÅ„
+konwersji pomiÄ™dzy logicznym i wizualnym hebrajskim.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
