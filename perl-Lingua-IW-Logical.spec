@@ -2,7 +2,7 @@
 %define		pdir	Lingua
 %define		pnam	IW-Logical
 Summary:	Lingua::IW::Logical perl module
-Summary(pl.UTF-8):   Moduł perla Lingua::IW::Logical
+Summary(pl.UTF-8):	Moduł perla Lingua::IW::Logical
 Name:		perl-Lingua-IW-Logical
 Version:	0.5
 Release:	9
