@@ -5,7 +5,7 @@ Summary:	Lingua::IW::Logical perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::IW::Logical
 Name:		perl-Lingua-IW-Logical
 Version:	0.5
-Release:	9
+Release:	10
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
