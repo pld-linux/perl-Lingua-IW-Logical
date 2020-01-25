@@ -1,6 +1,5 @@
 %define		pdir	Lingua
 %define		pnam	IW-Logical
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::IW::Logical perl module
 Summary(pl.UTF-8):	Moduł perla Lingua::IW::Logical
 Name:		perl-Lingua-IW-Logical
